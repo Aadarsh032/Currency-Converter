@@ -1,0 +1,157 @@
+body{
+    background-color:#8332AC ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#heading
+{
+    text-align: center;
+    color: #462749;
+    background-color:#E086D3;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+#mainbox
+{
+    margin: auto;
+    border: 5px solid #462749;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 2rem;
+    background-color: #BAD1CD;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);margin-top: 5%;
+    height: 350px;  
+    width: 800px;   
+}
+#frombox
+{
+    border: 2px solid #3F826D;
+    background-color: #E086D3;
+
+    border-radius: 20px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+#fromdropdown
+{
+    width: 200px;
+    font-weight: bolder;
+    text-align: center;
+    background-color:#F7F7FF ;
+    border: 2px solid #C03221;
+    border-radius: 5px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#frominput
+{
+      width: 200px;
+      height: 25px;
+      text-align: center;
+      font-weight: bolder;
+      background-color:#F7F7FF ;
+      border: 2px solid #C03221;
+      border-radius: 5px ;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#tobox
+{
+    border: 2px solid #3F826D;
+    background-color: #E086D3;
+    border-radius: 20px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
+    justify-content :space-evenly;
+}
+#todropdown
+{
+    width: 200px;
+    text-align: center;
+    font-weight: bolder;
+    background-color:#F7F7FF ;
+    border: 2px solid #C03221;
+    border-radius: 5px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#toinput
+{
+      width: 200px;
+      height: 25px;
+     font-weight: bolder;
+      text-align: center;
+      background-color:#F7F7FF ;
+      border: 2px solid #C03221;
+      border-radius: 5px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #mainbox
+    {
+        flex-direction: column;
+        width: fit-content;
+        padding: 20px;
+        height: fit-content;
+    }
+}
+#submitbutton
+{
+    background-color: #C03221;
+    border-radius:  5px;
+    padding: 0.5rem;
+    max-width:fit-content;
+    color:#F7F7FF;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#ibutton
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7FF;
+  
+}
+#insideibutton
+{
+    background-color: #F2D0A4;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+#exchangebutton
+{
+    background-color:#8332AC;
+    padding: 10px;
+    border-radius: 50%;
+}

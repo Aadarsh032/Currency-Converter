@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+               <!-- Heading  Currency Converter -->
+      <h1 id="heading">Currency Converter<sub style="font-size:medium;"> by Aadarsh</sub></h1>
+
+                <!-- Main Box (contains both from and to box ) -->
+
+      <div id="mainbox">
+             
+                <!-- From Box -->
+
+        <div id="frombox">
+              <p style=" text-align: center;font-weight:900; font-size:x-large"><b>FROM</b></p>
+              <img src="https://flagsapi.com/IN/shiny/64.png" id="fromimage">
+              <select name="from" id="fromdropdown" class="dropdown">
+                <!-- option elements created by javascript -->
+              </select>
+             <input type="number" id="frominput" value="1">
+        </div>
+   
+             <!-- Swap Button -->
+
+        <i class="fa-solid fa-right-left" id="exchangebutton" ></i>
+
+              <!-- To Box -->     
+
+        <div id="tobox">
+            <p style="text-align: center;font-weight:900; font-size:x-large"><b>TO</b></p>
+            <img src="https://flagsapi.com/IN/shiny/64.png" id="toimage">
+              <select name="to" id="todropdown" class="dropdown">
+                <!-- option elements created by javascript -->
+              </select>
+              <input type="number" id="toinput">
+        </div>  
+      </div>
+
+          <!-- Sumbit Button -->
+            
+      <div id="submitbutton">Get Exchange Rates</div>
+
+         <!-- Info Button -->
+
+      <a href="https://aadarshprofile.orangecom.xyz/" target="_blank"> <div id="ibutton">
+        <p id="insideibutton">
+           <i>i</i>    
+        </p>
+    </div></a>
+     
+        <!-- Script Tags Linking Javascript File -->
+      <script src="/codes.js"></script>
+      <script src="/script.js"></script>
+</body>
+</html>
